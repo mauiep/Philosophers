@@ -8,7 +8,7 @@ typedef struct  s_philo
 {
     int id;
     int nb_philo;
-	struct timeval feedtime;
+    struct timeval start;
     int time_to_die;
     int time_to_eat;
     int time_to_sleep;
