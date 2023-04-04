@@ -10,6 +10,11 @@ Le programme doit être exécuté avec les paramètres suivants : le nombre de p
 
 ## Fonctionnement
 
-Le programme utilise des threads pour simuler les philosophes, et des mutex pour gérer l'accès aux fourchettes. Chaque philosophe est représenté par un thread, qui alterne entre les états "penser" et "manger" en fonction des paramètres donnés. Chaque fois qu'un philosophe souhaite manger, il doit acquérir deux mutex représentant les deux fourchettes à sa gauche et à sa droite. S'il ne peut pas acquérir les deux mutex, il doit attendre jusqu'à ce qu'ils soient disponibles. Une fois qu'il a les deux mutex, il peut manger pendant un certain temps, puis relâcher les mutex et repasser à l'état "penser".
+Le programme utilise des threads pour simuler les philosophes, et des mutex pour gérer l'accès aux fourchettes. Chaque philosophe est représenté par un thread, qui alterne entre "manger", "dormir" et "penser" en fonction des paramètres donnés. Chaque fois qu'un philosophe souhaite manger, il doit acquérir deux mutex représentant les deux fourchettes à sa gauche et à sa droite. S'il ne peut pas acquérir les deux mutex, il doit attendre jusqu'à ce qu'ils soient disponibles.
 
-Le programme utilise également des variables de condition pour signaler à chaque philosophe quand les fourchettes sont disponibles.
+## Utilisation
+
+* Compiler le code avec ```make```
+* Lancez la simulation avec ```./philo nb_philo time_to_die time_to_eat time_to_sleep [nb_meals]```
+ 
+  ![Screenshot from 2023-04-04 23-01-17](https://user-images.githubusercontent.com/31923839/229920557-e6606272-bbce-40d0-9292-a77c139f6758.png)
