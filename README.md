@@ -34,7 +34,7 @@ In addition, the program must follow these rules:
 
 ## How to Run
 
-To run the mandatory program, navigate to the project directory and run the following command:
+To run the program, navigate to the project directory and run the following command:
 
 ```
 make
