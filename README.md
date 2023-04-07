@@ -44,6 +44,6 @@ make
 ## Output
 
 The program will output messages in the format specified above for each change in a philosopher's state. The program will run until a philosopher dies or until all philosophers have eaten the required number of times (if specified).
-Requirements
+
 
   ![Screenshot from 2023-04-04 23-01-17](https://user-images.githubusercontent.com/31923839/229920557-e6606272-bbce-40d0-9292-a77c139f6758.png)
