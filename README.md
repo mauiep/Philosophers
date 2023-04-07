@@ -30,6 +30,7 @@ In addition, the program must follow these rules:
 * No messages should be mixed with another message.
 * There should be no more than 10 milliseconds between a philosopher's death and the message announcing their death.
 * The philosophers must not die.
+* The program must be written in C and must not have any data races or leaks.
 
 ## How to Run
 
@@ -44,7 +45,5 @@ make
 
 The program will output messages in the format specified above for each change in a philosopher's state. The program will run until a philosopher dies or until all philosophers have eaten the required number of times (if specified).
 Requirements
-
-The program must be written in C and must not have any data races or leaks.
 
   ![Screenshot from 2023-04-04 23-01-17](https://user-images.githubusercontent.com/31923839/229920557-e6606272-bbce-40d0-9292-a77c139f6758.png)
