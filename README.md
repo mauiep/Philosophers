@@ -1,8 +1,8 @@
 # Philosophers
 
-## Overview
+This 42 school's project aims to simulate a problem known as the "Dining Philosophers" problem : A group of philosophers sit around a circular table, and there is a large plate of spaghetti in the center. The philosophers can either be eating, thinking, or sleeping.
 
-This project is part of the curriculum at 42 school and aims to simulate a problem known as the "Dining Philosophers" problem : A group of philosophers sit around a circular table, and there is a large plate of spaghetti in the center. The philosophers can either be eating, thinking, or sleeping.
+## Overview
 
 The program must adhere to the following rules:
 
